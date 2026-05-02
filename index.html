@@ -24,14 +24,14 @@
     .hero {
       padding: 56px 0 32px;
     }
-    .badge {
-      display: inline-block;
-      background: #1e293b;
-      color: #93c5fd;
-      padding: 8px 12px;
-      border-radius: 999px;
-      font-size: 14px;
-      margin-bottom: 16px;
+    .logo-wrap {
+      margin-bottom: 24px;
+    }
+    .logo {
+      max-width: 280px;
+      width: 100%;
+      height: auto;
+      display: block;
     }
     .card {
       background: #111827;
@@ -50,6 +50,20 @@
     ul {
       padding-left: 20px;
     }
+    .tiktok-btn {
+      display: inline-block;
+      background: #000000;
+      color: #ffffff;
+      padding: 14px 22px;
+      border-radius: 10px;
+      font-weight: bold;
+      text-decoration: none;
+      border: 1px solid #444;
+    }
+    .tiktok-btn:hover {
+      text-decoration: none;
+      opacity: 0.92;
+    }
     .footer {
       margin-top: 48px;
       font-size: 14px;
@@ -62,8 +76,9 @@
 <body>
   <div class="container">
     <section class="hero">
-      <div class="badge">DucoFlow by DUCO.nexus</div>
-      <h1>DucoFlow</h1>
+      <div class="logo-wrap">
+        <img src="/ducoflow-logo" alt="DucoFlow logo" class="logo" />
+      </div>
       <p>
         DucoFlow is an integration and workflow platform used by authorized teams to connect and manage social media accounts across client workspaces.
       </p>
@@ -86,7 +101,7 @@
     <section class="card">
       <h2>Current use</h2>
       <p>
-        DucoFlow is currently being used as an internal operational platform to support integrations between official social media APIs, OpenClaw, Duco, and Frank.
+        DucoFlow is currently being used as an internal operational platform to support integrations between official social media APIs and Duco.
       </p>
       <p>
         Its initial purpose is to facilitate secure connectivity, account management, visibility of authorized assets, analytics support, and workflow enablement for client workspaces.
@@ -94,14 +109,10 @@
     </section>
 
     <section class="card">
-      <h2>Legal</h2>
-      <p><a href="/privacy.html">Privacy Policy</a></p>
-      <p><a href="/terms.html">Terms of Service</a></p>
-    </section>
-
-    <div class="footer">
-      <p>DucoFlow by DUCO.nexus</p>
-    </div>
-  </div>
-</body>
-</html>
+      <h2>TikTok Login</h2>
+      <p>
+        Authorized users can sign in with TikTok to securely connect their account and grant access to approved DucoFlow workspace features.
+      </p>
+      <p>
+        This Login Kit flow is used to identify the authorized account, retrieve public profile information, display account metrics, and list authorized public videos.
+      </p>
