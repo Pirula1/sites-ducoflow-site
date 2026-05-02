@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" width="760" height="180">
+  
+  <g transform="translate(28,45) scale(0.72)" fill="none">
+  <g stroke="#0B132B" stroke-width="8" stroke-linecap="butt" stroke-linejoin="miter">
+    <path d="M22 12 V36"/>
+    <path d="M22 64 V88 H56 C78 88 93 72 93 50 C93 28 78 12 56 12 H22"/>
+    <path d="M38 30 H55 C67 30 75 39 75 50 C75 61 67 70 55 70 H38"/>
+  </g>
+  <path d="M22 50 H40" stroke="#5BC0BE" stroke-width="8" stroke-linecap="butt"/>
+  <path d="M45 50 H55" stroke="#0B132B" stroke-width="8" stroke-linecap="butt"/>
+</g>
+  <line x1="122" y1="40" x2="122" y2="140" stroke="#A7B0C0" stroke-width="1.5" opacity="0.55"/>
+  <text x="154" y="96" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="62" font-weight="300" letter-spacing="0" fill="#0B132B">DucoFlow</text>
+  <text x="157" y="132" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="23" font-weight="300" fill="#5A6475">by</text>
+  <text x="194" y="132" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="26" font-weight="500" letter-spacing="4" fill="#0B132B">DUCO</text>
+  <circle cx="306" cy="123" r="2.5" fill="#5BC0BE"/>
+  <text x="316" y="132" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="300" letter-spacing="2.5" fill="#5A6475">nexus</text>
+</svg>
