@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TikTok Login Start - DucoFlow</title>
+  <meta
+    name="description"
+    content="DucoFlow TikTok Login Kit start page for authorized account connection."
+  />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 760px;
+      background: #111827;
+      border: 1px solid #334155;
+      border-radius: 16px;
+      padding: 32px;
+      box-sizing: border-box;
+    }
+
+    .logo {
+      max-width: 260px;
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      color: #ffffff;
+      margin-top: 0;
+      margin-bottom: 16px;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 22px;
+      border-radius: 10px;
+      font-weight: bold;
+      text-decoration: none;
+      border: 1px solid #334155;
+      transition: opacity 0.2s ease;
+    }
+
+    .btn-primary {
+      background: #000000;
+      color: #ffffff;
+      border: 1px solid #444;
+    }
+
+    .btn-secondary {
+      background: #1e293b;
+      color: #ffffff;
+    }
+
+    .btn:hover {
+      text-decoration: none;
+      opacity: 0.92;
+    }
+
+    .note {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img
+      src="/product_DucoFlow_by_DUCO-nexus_negative.svg"
+      alt="DucoFlow logo"
+      class="logo"
+    />
+
+    <h1>TikTok Login Kit</h1>
+
+    <p>
+      This page starts the TikTok Login Kit flow for DucoFlow.
+    </p>
+
+    <p>
+      Authorized users can use TikTok Login to securely connect their account and grant access to approved DucoFlow workspace features.
+    </p>
+
+    <p>
+      This flow is used to identify the authorized TikTok account, retrieve public profile information, display account metrics, and list authorized public videos.
+    </p>
+
+    <div class="button-row">
+      <a class="btn btn-primary" href="/auth/tiktok/callback">Continue with TikTok</a>
+      <a class="btn btn-secondary" href="/index.html">Back to Home</a>
+    </div>
+
+    <p class="note">
+      Note: this is currently a public-facing start page for Login Kit validation and documentation.
+    </p>
+  </div>
+</body>
+</html>
