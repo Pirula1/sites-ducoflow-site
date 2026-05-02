@@ -4,7 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DucoFlow</title>
-  <meta name="description" content="DucoFlow connects authorized social accounts, manages access, supports analytics, and runs client workflows." />
+  <meta
+    name="description"
+    content="DucoFlow connects authorized social accounts, manages access, supports analytics, and runs client workflows."
+  />
   <style>
     body {
       margin: 0;
@@ -13,26 +16,32 @@
       color: #e2e8f0;
       line-height: 1.6;
     }
+
     .container {
       max-width: 960px;
       margin: 0 auto;
       padding: 48px 24px;
     }
+
     h1, h2 {
       color: #ffffff;
     }
+
     .hero {
       padding: 56px 0 32px;
     }
+
     .logo-wrap {
       margin-bottom: 24px;
     }
+
     .logo {
-      max-width: 280px;
+      max-width: 320px;
       width: 100%;
       height: auto;
       display: block;
     }
+
     .card {
       background: #111827;
       border: 1px solid #334155;
@@ -40,30 +49,55 @@
       padding: 24px;
       margin: 20px 0;
     }
+
     a {
       color: #60a5fa;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
     ul {
       padding-left: 20px;
     }
+
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .legal-btn,
     .tiktok-btn {
       display: inline-block;
-      background: #000000;
-      color: #ffffff;
       padding: 14px 22px;
       border-radius: 10px;
       font-weight: bold;
       text-decoration: none;
+      border: 1px solid #334155;
+      transition: opacity 0.2s ease;
+    }
+
+    .legal-btn {
+      background: #1e293b;
+      color: #ffffff;
+    }
+
+    .tiktok-btn {
+      background: #000000;
+      color: #ffffff;
       border: 1px solid #444;
     }
+
+    .legal-btn:hover,
     .tiktok-btn:hover {
       text-decoration: none;
       opacity: 0.92;
     }
+
     .footer {
       margin-top: 48px;
       font-size: 14px;
@@ -77,14 +111,25 @@
   <div class="container">
     <section class="hero">
       <div class="logo-wrap">
-        <img src="/product_DucoFlow_by_DUCO-nexus_negative.svg" alt="DucoFlow logo" class="logo" />
+        <img
+          src="/product_DucoFlow_by_DUCO-nexus_negative.svg"
+          alt="DucoFlow logo"
+          class="logo"
+        />
       </div>
+
       <p>
         DucoFlow is an integration and workflow platform used by authorized teams to connect and manage social media accounts across client workspaces.
       </p>
+
       <p>
         It supports secure account authorization, profile identification, analytics visibility, content listing, and future workflow automation across platforms such as TikTok, Meta, LinkedIn, YouTube, blogs, and other digital channels.
       </p>
+
+      <div class="button-row">
+        <a class="legal-btn" href="/privacy.html">Privacy Policy</a>
+        <a class="legal-btn" href="/terms.html">Terms of Service</a>
+      </div>
     </section>
 
     <section class="card">
@@ -95,7 +140,7 @@
         <li>Displays account metrics for analysis and reporting</li>
         <li>Lists authorized public videos and content assets</li>
         <li>Supports future workflow automation for internal authorized teams</li>
-      </ul>
+              </ul>
     </section>
 
     <section class="card">
@@ -116,3 +161,21 @@
       <p>
         This Login Kit flow is used to identify the authorized account, retrieve public profile information, display account metrics, and list authorized public videos.
       </p>
+
+      <div class="button-row">
+        <a class="tiktok-btn" href="/auth/tiktok/start">Continue with TikTok</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Legal</h2>
+      <p><a href="/privacy.html">Privacy Policy</a></p>
+      <p><a href="/terms.html">Terms of Service</a></p>
+    </section>
+
+    <div class="footer">
+      <p>DucoFlow by DUCO.nexus</p>
+    </div>
+  </div>
+</body>
+</html>
