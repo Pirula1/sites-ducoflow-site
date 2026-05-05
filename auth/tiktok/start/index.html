@@ -112,10 +112,15 @@
       This flow is used to identify the authorized TikTok account, retrieve public profile information, display account metrics, and list authorized public videos.
     </p>
 
-    <div class="button-row">
-      <a class="btn" href="https://www.tiktok.com/v2/auth/authorize/?client_key=sbawxmdxdswpfpnjaa&scope=user.info.basic&response_type=code&redirect_uri=https%3A%2F%2Fducoflow.duco.nexus%2Fauth%2Ftiktok%2Fcallback&state=ducoflow_login">Continue with TikTok</a>      <a class="btn btn-secondary" href="/index.html">Back to Home</a>
-    </div>
-
+   <div class="button-row">
+  <a
+    class="btn"
+    href="https://www.tiktok.com/v2/auth/authorize/?client_key=sbawxmdxdswpfpnjaa&scope=user.info.basic%2Cuser.info.profile%2Cuser.info.stats%2Cvideo.list&response_type=code&redirect_uri=https%3A%2F%2Fducoflow.duco.nexus%2Fauth%2Ftiktok%2Fcallback&state=ducoflow_login"
+  >
+    Continue with TikTok
+  </a>
+  <a class="btn btn-secondary" href="/index.html">Back to Home</a>
+</div>
     <p class="note">
       Note: this is currently a public-facing start page for Login Kit validation and documentation.
     </p>
